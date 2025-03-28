@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>العزومي</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Foda&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">العزومي</div>
+        <div class="about" onclick="showAbout()">about us</div>
+    </header>
+
+    <main>
+        <section class="book">
+            <div class="image" style="background-image: url('images/biology.jpg');"></div>
+            <div class="book-title">شيت أحياء</div>
+            <a class="download-btn" href="pdfs/biology.pdf" download>download</a>
+        </section>
+
+        <section class="book">
+            <div class="image" style="background-image: url('Documents/images/mechanics.jpg');"></div>
+            <div class="book-title">شيت فيزياء</div>
+            <a class="download-btn" href="pdfs/meshanics.pdf" download>download</a>
+        </section>
+
+        <div id="about-text" class="about-text" style="display:none;">
+            شركة شيتات العزومي هي شركة متخصصة في صناعة الشيتات المنهجية وهي تعتبر من أقوى الشركات في هذا المجال.<br>
+            جميع الحقوق محفوظة لدى 2025.
+        </div>
+    </main>
+
+    <script>
+        function showAbout() {
+            document.getElementById("about-text").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>

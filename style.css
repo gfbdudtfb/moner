@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #370043;
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.logo {
+    background-color:#ad00fd ;
+    color: rgb(255, 255, 255);
+    font-family: 'Foda', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 20px 0 20px 0;
+}
+
+.about {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.about:hover {
+    color: #0087fd;
+}
+
+main {
+    padding: 30px 20px;
+}
+
+.book {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.image {
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.book-title {
+    flex-grow: 1;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+}
+
+.download-btn {
+    background-color:#ad00fd ;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+    background: #0087fd;
+    transform: scale(1.1);
+    color: white;
+}
+
+.about-text {
+    background-color: #ffffffcc;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.8;
+    text-align: center;
+}
